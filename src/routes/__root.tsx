@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "ICW Detailing — Showroom Finish. Every Time. | Inverness" },
       { name: "description", content: "Premium car valeting & detailing in Inverness. Hand wash, paint correction, ceramic protection — trusted by local drivers for immaculate, showroom-standard results." },
       { name: "author", content: "ICW Detailing" },
-      { property: "og:title", content: "ICW Detailing — Showroom Finish. Every Time." },
-      { property: "og:description", content: "Premium car valeting & detailing in Inverness. Showroom-standard results, fair pricing, genuine attention to detail." },
+      { property: "og:title", content: "ICW Detailing — Showroom Finish. Every Time. | Inverness" },
+      { property: "og:description", content: "Premium car valeting & detailing in Inverness. Hand wash, paint correction, ceramic protection — trusted by local drivers for immaculate, showroom-standard results." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ICW Detailing — Showroom Finish. Every Time. | Inverness" },
+      { name: "twitter:description", content: "Premium car valeting & detailing in Inverness. Hand wash, paint correction, ceramic protection — trusted by local drivers for immaculate, showroom-standard results." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39996386-86b5-4940-993f-002f6185d690/id-preview-06577f48--8d0f33f9-a110-4869-ad9a-148429b55041.lovable.app-1778632142973.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39996386-86b5-4940-993f-002f6185d690/id-preview-06577f48--8d0f33f9-a110-4869-ad9a-148429b55041.lovable.app-1778632142973.png" },
     ],
     links: [
       {

@@ -1,17 +1,17 @@
-import foam from "@/assets/foam-wash.jpg";
+import foamGolf from "@/assets/gallery-foam-golf.webp";
+import bmw from "@/assets/gallery-bmw.webp";
+import ferrari from "@/assets/gallery-ferrari.webp";
 import wheel from "@/assets/wheel-detail.jpg";
-import polish from "@/assets/polish.jpg";
 import interior from "@/assets/interior.jpg";
 import beading from "@/assets/beading.jpg";
-import after from "@/assets/after.jpg";
 
 const tiles = [
-  { src: foam, alt: "Snow foam wash on luxury car", span: "md:col-span-2 md:row-span-2" },
+  { src: foamGolf, alt: "Snow foam wash on a Golf at ICW Detailing", span: "md:col-span-2 md:row-span-2" },
   { src: wheel, alt: "Polished black wheel detail", span: "" },
   { src: beading, alt: "Water beading on ceramic coating", span: "" },
-  { src: polish, alt: "Machine polishing in the workshop", span: "md:col-span-2" },
+  { src: ferrari, alt: "Red Ferrari detailed inside the ICW workshop", span: "md:col-span-2" },
   { src: interior, alt: "Immaculate detailed interior", span: "" },
-  { src: after, alt: "Glossy black paint reflection", span: "" },
+  { src: bmw, alt: "Red BMW M8 freshly washed at ICW Detailing", span: "" },
 ];
 
 export function Gallery() {
